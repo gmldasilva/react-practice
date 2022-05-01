@@ -56,7 +56,7 @@ const ExpenseForm = (props) => {
             date: new Date(userInput.enteredDate)
         };
 
-        props.onSaveExpenseData();
+        props.onSaveExpenseData(expenseData);
         setUserInput({ 
             enteredTitle: "",
             enteredAmount: "",
